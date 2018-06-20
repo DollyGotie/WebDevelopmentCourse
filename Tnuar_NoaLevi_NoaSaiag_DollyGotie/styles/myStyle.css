@@ -1,0 +1,687 @@
+body 
+{
+    direction:rtl;
+    background-color:lightcyan;
+}
+
+#container{
+    background-image: url(imgs/board.jpg);
+    width: 960px;
+    margin: auto;
+}
+
+#carousel{
+    width: 960px;
+    height:600px;
+    margin:auto;
+}
+
+header {
+    background-color:#07393C;
+    height:160px;
+}
+#logo img{
+    height:130px;
+    display:inline-block;
+    float:right;
+    padding-top:15px;
+    padding-right:15px;
+}
+
+#nav1 {
+    padding-left:5px;
+    padding-top:5px;
+    float:right;
+    margin-top: 20px;
+    margin-right: 9px;
+}
+#nav1 > ul > li{
+    display: inline-block;
+    background-image: url(imgs/nav1.png);
+    color: white;
+    width: 150px;
+    height:40px;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+    #nav1 > ul > li > ul > li {
+        background-image: url(imgs/nav1.png);
+        display: inline-block;
+        width: 150px;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+ #nav1 ul {
+        list-style-type: none;
+    }
+
+ #nav1  >ul >li a {
+           display:inline;
+            background-image: url(imgs/nav1.png);
+            color: white;
+            width: 120px;
+            height:20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+            text-align: center;
+            font-weight:bold;
+        }
+
+#nav1 >ul> li >ul {
+    display:none;
+    position: absolute;    
+}
+
+    #nav1 > ul > li:hover > ul {
+        display: inline-block;
+        width: 110px;
+        margin-right: -158px;
+        margin-top: 30px;
+    }
+
+.notActive {
+    cursor: not-allowed;
+}
+
+.bread{
+    display:inline-block;
+}
+.bread ul {
+    list-style: none;
+}
+
+    .bread ul li {
+        display: inline-block;
+        float: none;
+        font-size:20px;
+        
+    }
+
+    .bread ul li a{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-size:20px;
+   font-weight:bold;
+}
+.bread ul li::after {
+    content:">";
+}
+
+.bread ul li:last-child::after {
+    content:"";
+}
+
+.kotrot h2 h3{font-family:'BN Anna';
+              font-weight:bold;
+}
+
+#zofim {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding-top: 30px;
+    background-size: 100%;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 950px;
+    height: 500px;
+    background-repeat: no-repeat;
+    float: right;
+}
+    #zofim img {
+        float: right;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    #zofim h2 {
+        font-family: 'BN Anna';
+        font-weight: bold;
+        padding-right: 200px;
+        padding-bottom: 20px;
+    }
+#poloridtzofim {
+    float:left;
+    padding-bottom:20px;
+}
+
+#oved {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height: 500px;
+    width: 940px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+    #oved img
+{
+    float: right;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+    #oved h2 {
+        font-family: 'BN Anna';
+        font-weight: bold;
+        padding-right: 200px;
+        padding-bottom:20px;
+    }
+
+
+#poloridoved {
+    float:left;
+    padding-bottom: 20px;
+}
+
+.pic_of_Hiloni {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+
+.page {
+    margin-top: 100px;
+    border: solid;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    margin-right: 15px;
+    float: right;
+}
+
+    .page h2 {
+        font-family: 'BN Anna';
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .page h3 {
+        font-size: 20px;
+    }
+
+#zofim-id {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    background-size: 100%;
+    height: 302px;
+    background-repeat: no-repeat;
+}
+#blubanner {
+    background-image: url(imgs/kotertlobi.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 500px;
+    height: 175px;
+    margin-right: 230px;
+    font-family: 'BN Anna';
+    margin-top: 10px;
+}
+    #blubanner h1 {
+        margin-right:80px;
+        font-weight:bold;
+       padding-left:30px;
+    }
+
+    #blubanner h2 {
+        font-size:50px;
+        margin-bottom:20px;
+        margin-right: 130px;
+        font-weight: bold;
+        font-family: 'BN Anna';
+        margin-top:10px;
+        padding-bottom:20px;
+    }
+
+    #macabi {
+        display: inline-block;
+        background-image: url(imgs/white.png);
+        padding: 20px;
+        background-size: 100%;
+        height: 500px;
+        width: 950px;
+        padding-top: 40px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        margin-right: 5px;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    #macabi img {
+        float: right;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    #macabi h2 {
+        font-family: 'BN Anna';
+        font-weight: bold;
+        padding-right: 200px;
+        padding-bottom: 20px;
+    }
+#poloridmacabi {
+    float: left;
+    padding-bottom: 20px;
+}
+#akiva {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height: 500px;
+    width: 940px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    float: right;
+}
+#logoakiva img {float:right;
+                margin-right:30px;
+                margin-left:20px;
+                    
+}
+
+#akiva h2 {
+    font-family: 'BN Anna';
+    font-weight: bold;
+    padding-right:195px;
+}
+#poloridakiva {
+    float: left;
+    padding-bottom: 20px;
+}
+#ezra {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height: 500px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+    #ezra h2 {
+        font-family: 'BN Anna';
+        font-weight: bold;
+        padding-right: 195px;
+    }
+        #ezra img {
+        float: right;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+#poloridezra {
+    float: left;
+    padding-bottom: 20px;
+} 
+    #ariel {
+        display: inline-block;
+        background-image: url(imgs/white.png);
+        padding: 20px;
+        background-size: 100%;
+        height: 500px;
+        width: 950px;
+        padding-top: 40px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        margin-right: 5px;
+        background-repeat: no-repeat;
+        float:right;
+    }
+        #ariel img {
+            float: right;
+            margin-right: 30px;
+            margin-left: 20px;
+        }
+        #ariel h2 {
+            font-family: 'BN Anna';
+            font-weight: bold;
+            padding-right: 195px;
+        }
+#link img {
+    float: left;
+    display: inline-block;
+}
+#poloridariel {
+    float: left;
+    padding-bottom: 20px;
+    display:inline-block;
+} 
+
+
+
+footer {
+    margin-right: 270px;
+}
+
+    footer ul li {
+        display: inline-block;
+        padding-top: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 15px;
+        color: black;
+    }
+
+    footer a {
+        color: black;
+    }
+
+
+#zofim_main {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    background-size: 100%;
+    height: 600px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+
+#zofim2{
+ float: right;
+    
+}
+#koterth1 {
+    font-family: 'BN Anna';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+}
+
+#bogrim_zofim {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height: 500px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+    #bogrim_zofim h2{
+        font-family:'BN Anna';
+        font-weight:bold;
+        font-size:60px;
+        text-align:right;
+    }
+    #bogrim_zofim h3 {
+        font-family: 'BN Anna';
+    }
+        
+
+
+        #matarot {
+            padding-top: 60px;
+            padding-left: 10px;
+            padding-right: 10px;
+            float: right;
+            display: inline-block;
+        }
+
+#matrot_img{
+    background-image: url(imgs/check-box.png);
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    display:inline-block;
+    float:right;
+}
+#himnon h2 p {float:left;
+             display:inline-block;
+}
+#zofimyoutybe {margin-right:200px;
+               padding-bottom:20px;
+}
+
+
+
+#zofim_style {
+    background-image: url(imgs/madim-zofim.png);
+    background-size: 100%;
+    width:960px;
+    height:410px;
+    background-repeat:no-repeat;
+    margin-bottom:40px;
+   
+}
+
+#pic_zofim {
+    background-image: url(imgs/pics-zofim.png);
+    background-size: 100%;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+#akiva{
+ float: right;
+    
+}
+
+#akiva-id{
+      display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 120%;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+.aboutmain {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height:500px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+.aboutmain h2{
+    font-family:'BN Anna';
+   font-weight:bold;
+   font-size:50px;
+}
+.aboutmain p {
+    font-size:30px;
+}
+    .aboutmain li {
+        font-size: 30px;
+    }
+    #HIT a {
+        font-size:35px;
+        color:black;
+        font-weight:bold;
+        margin-right:10px;
+    }
+.akiva_main {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height: 500px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+#koterth1 {
+    font-family: 'BN Anna';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+}
+
+#bogrim_akiva h2 {
+    font-family: 'BN Anna';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+}
+
+#bogrim_akiva h3 {
+    font-family: 'BN Anna';
+}
+
+#akiva2 {
+    float: right;
+}
+
+#matarot_akiva {
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-top: 60px;
+    padding-right: 10px;
+    float: right;
+    display: inline-block;
+}
+
+#himnon_akiva {
+    padding: 30px;
+    margin-right: 170px;
+}
+
+#akiva_sytle {
+    background-image: url(imgs/madim-akiva.png);
+    background-size: 100%;
+    height: 410px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+}
+
+#akiva_photo {
+    background-image: url(imgs/pics-akiva.png);
+    background-size: 100%;
+    height: 410px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+}
+#bogrim_akiva {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height: 500px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+#rekamap {
+    display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 120%;
+    height: 520px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat:no-repeat;
+}
+
+#rekamap h1{
+       font-family: 'BN Anna';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+}
+
+label{
+     display:block;
+     margin-top:10px;
+}
+
+input[type ='text'] , input[type ='password'] ,textarea , select {
+    display:block;
+    margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+ margin-top:10px;
+}
+
+.connect{
+        display: inline-block;
+    background-image: url(imgs/white.png);
+    padding: 20px;
+    background-size: 100%;
+    height: 500px;
+    width: 950px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    background-repeat:no-repeat;
+}
+.connect h1{
+     font-family: 'BN Anna';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: right;
+}
+
+form{
+    padding: 20px;
+}
+
+#hit{
+   align-content: center;
+    padding: 30px;
+}
+
+#zhuyot {
+    
+    margin-top: 100px;
+    border: solid;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+    width: 700px;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+
+#zhuyot h2 {
+    font-family: 'BN Anna';
+    font-size: 30px;
+    font-weight: bold;
+}
